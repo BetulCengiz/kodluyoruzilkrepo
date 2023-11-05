@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>...Enfes Browni...</title>
+    <style>
+        body {
+            background-color: rgb(228, 152, 116);
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #472005;
+        }
+        h2, h3 {
+            display: inline-block;
+            padding: 10px;
+            border: 2px solid #f3bc98;
+            background-color: #f3bc98;
+            border-radius: 15px;
+            color: #472005;
+        }
+        ul, ol {
+            color: #2e1304;
+        }
+        p {
+            color: #2e1304;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .recipe {
+            flex: 1; /* Metin içeriğinin esnekliğini ayarlayın */
+            padding: 5px; /* İçerik ile resim arasındaki boşluğu ayarlayın */
+        }
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .text-container {
+            flex: 0 0 70%; /* Metin bölgesi genişliği */
+            text-align: left; /* Metni sol hizala */
+        }
+        .image-container {
+            flex: 0 0 30%; /* Resim bölgesi genişliği */
+            text-align: right; /* Resmi sağa hizala */
+            padding-right: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="recipe">
+            <h1>Beyaz Çikolatalı Browni Tarifi</h1>
+            <div class="text-container">
+                <h3>Malzemeler:</h3>
+                <ul>
+                    <li>290 gram bitter çikolata</li>
+                    <li>90 gram tereyağı</li>
+                    <li>3 yumurta</li>
+                    <li>150 gram toz şeker</li>
+                    <li>140 gram un</li>
+                    <li>1 çay kaşığı vanilya</li>
+                    <li>Bir tutam tuz</li>
+                    <li>220 gram beyaz çikolata</li>
+                </ul>
+                <h3>Yapılışı:</h3>
+                <ol>
+                    <li>Bitter çikolatayı benmari usulü eritin. Ardından tereyağını ekleyin ve karışımı iyice eritin. Soğumaya bırakın.</li>
+                    <li>Yumurtaları toz şekerle iyice çırpın.</li>
+                    <li>Çikolata karışımını yumurtalı karışıma ekleyin ve karıştırın.</li>
+                    <li>Un, vanilya özütü ve tuzu ekleyip karıştırın. Karışımı bir kare fırın kabına dökün.</li>
+                    <li>Önceden ısıtılmış 160 derece fırında 25-30 dakika pişirin. Üzeri kızarana kadar kontrol edin.</li>
+                    <li>Soğuduktan sonra dilimleyip servis yapın. Afiyet olsun!</li>
+                </ol>
+                <p>Not: Bu lezzetli tarif, çay veya kahve eşliğinde tadına varabileceğiniz harika bir atıştırmalıktır.</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="https://ideacdn.net/idea/ga/88/myassets/products/094/beyaz-cikolarali-browni-emirgan-sutis-1080x1080_min.jpg?revision=1697143329" alt="Browni Resmi">
+        </div>
+    </div>
+</body>
+</html>
